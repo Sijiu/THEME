@@ -1,0 +1,205 @@
+duration  持续
+
+hint  暗示 提示
+
+trap  陷阱 诱骗 圈套
+
+
+
+销售税  Sales tax
+
+邮编  Zip code
+
+物品所在地 locus 
+
+
+买家要求 buyer requirements\
+
+
+
+zcdf mysql passwd  maxhplain
+
+ssh -p 26363 root@45.78.57.254
+
+Last login: Tue Apr  5 04:15:07 2016 from 118.186.252.98
+-bash: /root/.bash_profile: line 14: syntax error: unexpected end of file
+
+
+#alias
+alias ll='ls -l -G'
+alias ls='ls -G'
+alias lt='ls -lt'
+alias lr='ls -ltr'
+
+alias grep='grep --color'
+alias grep='egrep --color'
+alias fgrep='fgrep --color'
+
+人的弱点就是经不起别人的安慰与理解。高估了自己的改变与能力。
+
+
+数据源，代码主要流程、输出
+
+
+------------0406--
+yaml  √
+
+@staticmethod  
+
+batch.py
+
+18627963002
+
+蠢
+
+
+----------0407--
+
+mysql.rpm
+
+python
+
+something
+
+都没有坐做程
+
+----------0408--
+
+亚马逊对比  ok ...
+
+
+----------0409--
+896139438 taobao
+lonvlyy521 wesxin
+q:" 544073013
+
+
+----------0410--
+
+
+----------0411一--
+Amazon WMS ?
+Amazon WMS
+
+测试Amazon 品牌卖家
+
+----------0412二--
+
+pymongo 连接
+安装python
+安装mongo
+搭建python QQ管理员
+
+
+----------0413三--
+ gridfs 图片存取
+
+撕夜  囚鸟
+
+DESCENDING 降序
+
+----------414四--
+
+
+---------415--
+
+
+
+
+
+----------419 二--
+space Cowboy
+
+跟卖
+
+商品编码同sku
+
+运费模板等问题-很可笑
+
+----------420 三--
+
+ipython 
+
+看一下模板问题
+
+
+
+----------421 四--
+
+
+
+
+----------426 五--
+/^[A-Za-z0-9_\-\u4e00-\u9fa5]+$/
+'格式错误，仅支持汉字、字母、数字、“-”“_”的组合';
+Unicode编码中的汉字范围	/^[\u2E80-\u9FFF]+$/
+
+1、360插件栏的问题，查看--》插件栏
+2、选择目录，子目录多的时候要手动滑动滚动条（似乎比较繁琐的）
+
+python Flask
+
+
+400ssd$69
+
+
+采集插件---
+
+
+--------427--
+批量编辑之商品分类和商品属性
+
+
+
+
+
+--------428--
+
+满座花醉三千客，更无一人是知音！
+
+linux之中的开源书籍
+
+--------429--
+greeting
+write搞清楚
+HttpRequest 的write方法
+
+
+escape
+
+
+
+-------5-4--
+backend 后台
+
+
+-------5-5--
+sqoop
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+肝 目
+
+
+肺 心苞 喉咙
