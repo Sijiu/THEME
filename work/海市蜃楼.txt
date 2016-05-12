@@ -1,0 +1,123 @@
+duration  持续
+
+hint  暗示 提示
+
+trap  陷阱 诱骗 圈套
+
+virtual 虚拟
+
+Critter 生物
+
+销售税  Sales tax
+
+邮编  Zip code
+
+物品所在地 locus 
+
+买家要求 buyer requirements
+
+国内 domestic
+
+违法行为 Violations
+
+阶乘 factorial
+
+poochie 小家伙
+
+decorator 装饰器
+
+invader 入侵者，入侵生物
+
+
+shuffle 洗牌
+
+efficient 高效
+
+descendant 后裔
+
+unterminated statement 未结束的声明
+
+instances 实例
+
+processing inherited 处理继承
+
+validation 验证
+
+duplicate（复制的，副本的） declaration（宣告、公告） 名字被多处声明
+
+repository 储藏室
+
+typo 错别字，打印错误
+
+coroutine 协程
+
+https://detail.tmall.com/item.htm?id=521752486249&sku_properties=-1:-1
+
+
+
+xhz123456 xhz123456
+hacking to the gate 21:48:38
+45.78.57.254
+hacking to the gate 21:48:50
+密码是
+hacking to the gate 21:49:05
+cdf12020cdf12020
+
+
+
+
+Screen = {
+        # 速卖通(AliExpress)、eBay、亚马逊(Amazon)、Wish、1688、淘宝、京东、天猫和Etsy
+        "a": "AliExpress",
+        "e": "eBay",
+        "z": "Amazon",
+        "w": "Wish",
+        "1": "1688",
+        "b": "淘宝",
+        "j": "京东",
+        "t": "天猫",
+        "y": "Etsy"
+    }
+
+
+比如说 你们的项目前端是集中式请求服务器吗?安装了反向代理工具和缓存服务器?CDN处理?
+
+后台或者数据交互用的是REST业务接口?
+
+无状态无会话模式
+
+如何调用内网接口?
+
+基于RPC或者SOA的元自行分布式接口?
+
+效率优化如何处理的?
+JMS和消息队列的事件处理?
+
+formidable
+
+
+
+
+
+
+
+你就这么拽几个 
+
+打破一个旧世界需要勇气与胆魄，建设一个新世界却需要耐心与智慧。
+
+
+
+command + D是横向开
+command + shift + D是竖着开  这么犀利的功能你不用太浪费了
+【short】小熊星座i(872931591)  14:21:31
+不对劲啊  我用这么久都是当终端用的
+
+command + T是新开一个tab 这个你应该知道
+
+
+小熊我发你了 你在/usr/local/bin/目录下新建一个脚本，把这些内容copy进去
+
+然后chmod +x 脚本名字
+
+
+
