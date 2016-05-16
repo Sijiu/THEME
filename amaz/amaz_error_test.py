@@ -3,7 +3,10 @@
 import urllib
 import urllib2
 import zlib
-import re, datetime
+import re
+import socket
+
+import datetime
 from bs4 import BeautifulSoup
 from furion.lib.model.amazon_err import Amazon_err
 from furion.lib.model.session import sessionCM
@@ -17,8 +20,8 @@ class Amazon_errmsg(object):
         self.postdata = urllib.urlencode({
             "widgetToken": "X2VuY29kaW5nPVVURjgmbGFuZ3VhZ2U9emhfQ04mb3BlbmlkLmFzc29jX2hhbmRsZT1zY19uYV9hbWF6b24mb3BlbmlkLmNsYWltZWRfaWQ9aHR0cCUzQSUyRiUyRnNwZWNzLm9wZW5pZC5uZXQlMkZhdXRoJTJGMi4wJTJGaWRlbnRpZmllcl9zZWxlY3Qmb3BlbmlkLmlkZW50aXR5PWh0dHAlM0ElMkYlMkZzcGVjcy5vcGVuaWQubmV0JTJGYXV0aCUyRjIuMCUyRmlkZW50aWZpZXJfc2VsZWN0Jm9wZW5pZC5tb2RlPWNoZWNraWRfc2V0dXAmb3BlbmlkLm5zPWh0dHAlM0ElMkYlMkZzcGVjcy5vcGVuaWQubmV0JTJGYXV0aCUyRjIuMCZvcGVuaWQubnMucGFwZT1odHRwJTNBJTJGJTJGc3BlY3Mub3BlbmlkLm5ldCUyRmV4dGVuc2lvbnMlMkZwYXBlJTJGMS4wJm9wZW5pZC5wYXBlLm1heF9hdXRoX2FnZT0wJm9wZW5pZC5yZXR1cm5fdG89aHR0cHMlM0ElMkYlMkZzZWxsZXJjZW50cmFsLmFtYXpvbi5jb20lMkZncCUyRmhlbHAlMkZoZWxwLmh0bWwlM0ZpZSUzRFVURjglMjZpdGVtSUQlM0QxNzc4MSUyNmxhbmd1YWdlJTNEemhfVVMlMjZyZWZfJTNEYWdfMTc3ODFfYnJlZF8zMDYwMSZwYWdlSWQ9c2NfbmFfYW1hem9uJnNob3dSbXJNZT0w:cGxwbE14MEVhUnlDVENweTNueEpPZXhkbUtmMEwwT2tKRnRjcUlWK3kyWT06MQ==",
             "rememberMe": "false",
-            "username": "yangguoli@actneed.com",
-            "password": "yaya2015",
+            "username": "yang@actneed.com",
+            "password": "lala2015",
             "sign-in-button": "",
             "metadata1": "OIwpGZoo1E6M203NKSfmoeknjsR5d33e1TzgHq9YfV8oCZ/XgZ0GADuoIvfUjtGapQ03NvqgxlUIDuwxZ8tqpxWtcB7eJDtxUzH46QppFCI4m3htBg80dZhVTkI7z3T5ksk+lLVOkaFstk3iIgzj0uwFoEU9x0Q9JOHvKu4u1c2pdDMtOEJOwQb0e6x/H9/jogqp5jP574i2RTpfLy9V6WnU9x1rexfE4k1g35Gpkmcr1alxTDKq2SgyyYGTgaghxusEGva/2FAFFCHlDcp28qgQXLaW4A6nzn+UiMtwb7r9ZcLchG6dW/xO2m3AVdAW27tYKhtWGBY7ij5C7Pm7dBDOiRkSMuKx0L0+l2adTQ8m59pLgo7yacWFjpbGZFsdUV2Y1L5oM7lcAsPr0O2Xq6Iwncw2dYG9DRo+Mlum6kIe6uCm7DwdrwYtKbBg+d7f+RTwyHvk1TAjWRlA+bnXBEqt22m9B7ASzFo8OJn9+2iIs5EYFIneYVtts4PzUu4m1t1uRtwmgPSzAk1bW1lZ8olEiLVGqE2uORv89gnRtSdV8YnIXV97Ol1eUg0yVReejGt3TqJ2w3AB6rqngbKmH96VdqYaYYzYzOV8vvQUkUWwH5TzcECrym3N1w5AKvgSb+481XO2Fh8BVyamF1zQW6fzS6pEOS9IAle2OP5YA3bGeeaCElW8apDbUYjL5xU8iOMxwX6ojfZ0/rcWNnE5MIun8+wX8yniyB/D2abIVpgH3AOJOUhgR9q+oDYD7EwOrfWca0zTvZRzsx02Sj8pxLG9CchuPDP6Q3SXxq/NvEQVMPpDzzjk4w==",
         })
@@ -35,7 +38,7 @@ class Amazon_errmsg(object):
         }
 
     def get_list_html(self, list_link):
-        print len(list_link), "----type--list_link--", type(list_link)
+        print len(list_link), "----type--list_link--", type(list_link),
         html_list = []
         for i in range(len(list_link)):
             req = urllib2.Request(
@@ -43,12 +46,25 @@ class Amazon_errmsg(object):
                 data=self.postdata,
                 headers=self.headers
             )
-            result = urllib2.urlopen(req)
-            gzipped = result.headers.get('Content-Encoding')
-            if gzipped:
-                htmls = zlib.decompress(result.read(), 16+zlib.MAX_WBITS)
-                # print "get_list_html-----", htmls
-                html_list .append(htmls)
+            try:
+                start_time = datetime.datetime.now()
+                print "start--", start_time
+                result = urllib2.urlopen(req, timeout=2)
+                try:
+                    s_r = result.read()
+                    gzipped = result.headers.get('Content-Encoding')
+                    if gzipped:
+                        htmls = zlib.decompress(s_r, 16+zlib.MAX_WBITS)
+                        print "time==", datetime.datetime.now() - start_time
+                        # print "get_list_html-----", htmls
+                        html_list .append(htmls)
+                except Exception,e:
+                    print "gzipped,......"
+            except socket.timeout as e:
+                print type(e)
+                print "There was an error: %r"
+            except urllib2.URLError as e:
+                print type(e), "----url ===", url
         return html_list
 
     def get_list(self, html):
@@ -66,7 +82,7 @@ class Amazon_errmsg(object):
                 # print list_link
                 html_list = self.get_list_html(list_link)
                 self.get_list(html_list)
-        print "list_link------------", list_link
+        # print "list_link------------", list_link
         return list_link
 
     def get_info(self, html):
@@ -85,41 +101,33 @@ class Amazon_errmsg(object):
                 p_error = soup.find("div", {"id": "_modules"})
             except AttributeError or TypeError as e:
                 print "h2, class=code, p_error is not found."
-            if p_error and err_code and err_desc:
-                for name in p_error:
-                    try:
-                       err_solution = name.get_text().replace(err_desc, "")
-                    except AttributeError, e:
-                        print "type---", type(name), name
-                        # print "err_solution=======", err_solution.replace(" ", "")
-                with sessionCM() as session:
-                    try:
-                        Amazon_err.create(session, err_code, err_desc, err_solution)
-                    except AttributeError as e:
-                        print "insert filed."
-            else:
-                print "It isn't final page."
+            # if p_error and err_code and err_desc:
+            #     for name in p_error:
+            #         err_solution = name.get_text().replace(err_desc, "")
+            #         # print "err_solution=======", err_solution.replace(" ", "")
+            #     with sessionCM() as session:
+            #         try:
+            #             Amazon_err.create(session, err_code, err_desc, err_solution)
+            #         except AttributeError as e:
+            #             print "insert filed."
+            # else:
+            #     print "It isn't final page."
 
 if __name__ == "__main__":
     first = Amazon_errmsg()
     # url=['https://sellercentral.amazon.com/gp/help/help.html/ref=ag_200712450_cont_17781?ie=UTF8&itemID=200712450&language=zh_US']
-    url20000 = ['https://sellercentral.amazon.com/gp/help/help.html/ref=ag_200712530_cont_17781?ie=UTF8&itemID=200712530&language=zh_US']
-    url8000 = ['https://sellercentral.amazon.com/gp/help/help.html/ref=ag_201440690_cont_17781?ie=UTF8&itemID=201440690&language=zh_US']
-    url90000 = ['https://sellercentral.amazon.com/gp/help/help.html/ref=sc_hp_rel_200712050?ie=UTF8&itemID=200712050&language=zh_US']
-    url13000 = ['https://sellercentral.amazon.com/gp/help/help.html/ref=sc_hp_rel_200712510?ie=UTF8&itemID=200712510&language=zh_US']
+    url = ['https://sellercentral.amazon.com/gp/help/help.html/ref=ag_17781_bred_200712520?ie=UTF8&itemID=17781&language=zh_US']
+    # url = ['https://sellercentral.amazon.com/gp/help/help.html/ref=sc_hp_rel_200712050?ie=UTF8&itemID=200712050&language=zh_US']
     # url1003 = ['https://sellercentral.amazon.com/gp/help/help.html/ref=sc_hp_rel_24761?ie=UTF8&itemID=24761&language=zh_US']
-    url18000 = ['https://sellercentral.amazon.com/gp/help/help.html/ref=sc_hp_rel_200712520?ie=UTF8&itemID=200712520&language=zh_US']
-    start_time = datetime.datetime.now()
-    print "start--", start_time
-    html = first.get_list_html(url18000)
+    start_t = datetime.datetime.now()
+    print "start time,", start_t
+    html = first.get_list_html(url)
     print "html--", len(html)
     aim_list = first.get_list(html)
+    aim_time = datetime.datetime.now()
+    print "aim time ,", aim_time - start_t
     print "aim list len----", len(aim_list)
-    html_time = datetime.datetime.now()
-    print html_time, "***", html_time - start_time
     aim_list_html = first.get_list_html(aim_list)
-    print "html time---", datetime.datetime.now() - html_time
+    print "html time", datetime.datetime.now(), datetime.datetime.now() - aim_time
     first.get_info(aim_list_html)
-    end_time = datetime.datetime.now()
-    print "start--", end_time
-    print "time==", end_time - start_time
+    print "toal time,", datetime.datetime.now(), datetime.datetime.now() - start_t
