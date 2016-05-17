@@ -30,7 +30,7 @@ class Amazon_errmsg(object):
             "Accept-Encoding": "gzip, deflate, sdch",
             "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6",
             "Connection": "keep-alive",
-            "Cookie": 'aws-target-static-id=1460341173658-788740; aws-target-visitor-id=1460341173661-21096; aws-target-data=%7B%22support%22%3A%221%22%7D; s_fid=134492BDA8807349-20AB2D7C815E1F64; s_dslv=1460341175322; s_vn=1491877175325%26vn%3D1; s_nr=1460341175326-New; regStatus=pre-register; s_pers=%20s_ev15%3D%255B%255B%2527Typed/Bookmarked%2527%252C%25271463356822486%2527%255D%252C%255B%2527Typed/Bookmarked%2527%252C%25271463356824667%2527%255D%252C%255B%2527Typed/Bookmarked%2527%252C%25271463370142563%2527%255D%252C%255B%2527Typed/Bookmarked%2527%252C%25271463379458205%2527%255D%255D%7C1621145858205%3B%20s_dl%3D1%7C1463394162574%3B%20gpv_page%3DUS%253ASC%253A%2520SellerCentralLogin%7C1463394162588%3B; session-token="8T847U4eJsMJnDcqjX+RsMBFKFAx9Zp/yPAAqkYVqkjGO43LCH0BA+OLrcnpwn/NM3sSvM8rnAer9u9G3q5IpWYVtv3ISmXd9uWjZ7y7lnC/3t68v5ygEXP6JpVW8UW8421zc1l9JEtkUubZExOqeySAgA1W3lCIg+eIZOfNi775uBHqQQgOtdbirnnPbXO4SJCXXvjHafMO0wo70WgtJUh8jJoji+t3mGeNy7hZnhM="; x-main="FCHU8zL6hZnYzmX?bNCGIOQZ1wXekgJqwJ6g7L1gksWVRoeoBD4mrdA@AfPdbHHA"; at-main=Atza|IQEBLjAsAhRC6nEdui1Q-758tjGAOisMYtdhOQIUJgk_BNnHPm-nGzP7-idSo3s-h_dGdMV5iAtm-5g00_gZwI-pboEdj9WnbDWN1K_6aOevIaH4Qe3_Ex-lYaYfZv1kE0jB6Ri2E0VPy2SMg676PYXE1Kp9Rjj2d-p7E-m20x9oWcMjt4yenzFQBeStl8RRh-QlcgO2Qr8ApBUSKQbxjSUSp4tY_5vugztiMU_MTtXTGmLsuIUKhWPzHvQN9yyCKhZU5mzfGchvMBFQvuHcZOT24nqRsHOz6hCbLEgMbt3aMReXVUEXZ0DRm964RZXXn1uwp7cWXvMoV2GEhdG9YgEZkE6JfGNYx_trDWwjEHdRnRs; sess-at-main="x4W7f6dgWknVW5PLCvaXMtUJI3QTVvtdrl5KtyRTvTk="; csm-hit=564.29|1463396263082; s_sess=%20c_m%3DundefinedTyped/BookmarkedTyped/Bookmarked%3B%20s_cc%3Dtrue%3B%20ev1%3Dn/a%3B%20s_sq%3Damznsrvsprod%252Camznsrvsmainprod%253D%252526pid%25253DUS%2525253ASC%2525253A%25252520SellerCentralLogin%252526pidt%25253D1%252526oid%25253D%252525A0%252525A0%252525u767B%252525u5F55%252525A0%252525A0%2525250A%252526oidt%25253D3%252526ot%25253DSUBMIT%3B; session-id=180-9662177-9190219; session-id-time=1464002338l; ubid-main=187-8952156-1332319',
+            "Cookie":'aws-target-static-id=1460341173658-788740; aws-target-visitor-id=1460341173661-21096; aws-target-data=%7B%22support%22%3A%221%22%7D; s_fid=134492BDA8807349-20AB2D7C815E1F64; s_dslv=1460341175322; s_vn=1491877175325%26vn%3D1; s_nr=1460341175326-New; regStatus=pre-register; s_pers=%20s_ev15%3D%255B%255B%2527Typed/Bookmarked%2527%252C%25271463356822486%2527%255D%252C%255B%2527Typed/Bookmarked%2527%252C%25271463356824667%2527%255D%252C%255B%2527Typed/Bookmarked%2527%252C%25271463370142563%2527%255D%252C%255B%2527Typed/Bookmarked%2527%252C%25271463379458205%2527%255D%255D%7C1621145858205%3B%20s_dl%3D1%7C1463452093295%3B%20gpv_page%3DUS%253ASC%253A%2520SellerCentralLogin%7C1463452093298%3B; session-token="wfzA6TLIws0QjQfCEcU8AoErPjfPmYGuqo01cer99D/mjxUHf09u/VGyAhY9+qS4kuQhQZ3TMeNhGV3ud48/6SuJMh0PJ96emFGwAv34KdCc702Qaz/+7utKOzrVbP+eFefcPO9z9eShjR+EwvGVDutiq/fLZjVA4VJO2f1KagkxX3yB+gudj8ZtHh3T6A0tRfS+2qsrL9I314+c0t2HFAUAI9/xFAyZ3ak8jUnhjKE="; x-main="4mOzLqn?14pV4wZnvj7WdUH0R3CJDh2nMZPNicqTLgIzHhQpLRvjYO?hI4yCGfWB"; at-main=Atza|IQEBLjAsAhQe6k6EB_VGcGC674_CJTwHVJtd5gIUBA1Ni6LOvW6Qqa_-E_0tPTh0jfna7ePKXDtq21ESHl2OROFKWvSMjo-UngqLOE-hhQ_BY7TizcHlIPxwgO1umw7-TCHJwY-1h5Zd3odLQplGUD_6uRv8Y7_AgMVvZ_BaiP2GhNrNuYDZTtUeJNjp7TLc_o6YoFOvpXJNfG8_f-xs7OaeTt8pdVAHd5ove-CjIACBbHWcuy_zdk8upjGaklYbJRQxhYLb8TaKCSmvu0oPjn2VR9RYVoKN6BB5aS_qo6ZLVAJqF-ZUOLZu3TGjXx8wP7kZH1M43eR-7Zf0hfK5QHM5UKKsobINoJGThQ8OOK_K4os; sess-at-main="GLki0iPCh60NlymC/GpL7m7LeczffK0MNgN+sFLJHww="; session-id-time=1463986800l; session-id=180-9662177-9190219; csm-hit=696.68|1463450295274; s_sess=%20c_m%3DundefinedTyped/BookmarkedTyped/Bookmarked%3B%20s_cc%3Dtrue%3B%20ev1%3Dn/a%3B%20s_sq%3Damznsrvsprod%252Camznsrvsmainprod%253D%252526pid%25253DUS%2525253ASC%2525253A%25252520SellerCentralLogin%252526pidt%25253D1%252526oid%25253D%252525A0%252525A0%252525u767B%252525u5F55%252525A0%252525A0%2525250A%252526oidt%25253D3%252526ot%25253DSUBMIT%3B; ubid-main=187-8952156-1332319',
             "Host": "sellercentral.amazon.com",
             "Referer": "https://sellercentral.amazon.com/gp/homepage.html?ie=UTF8&*Version*=1&*entries*=0&",
             "Upgrade-Insecure-Requests": "1",
@@ -38,10 +38,10 @@ class Amazon_errmsg(object):
         }
 
     def get_list_html(self, list_link):
-        print len(list_link), "----type---list_link---", type(list_link),
+        print len(list_link), "----type---list_link---", type(list_link)
         html_list = []
         for i in range(len(list_link)):
-            req_url = list_link[i],
+            req_url = list_link[i]
             req = urllib2.Request(
                 url=req_url,
                 data=self.postdata,
@@ -51,16 +51,13 @@ class Amazon_errmsg(object):
                 start_time = datetime.datetime.now()
                 print "start--", start_time
                 result = urllib2.urlopen(req, timeout=2)
-                try:
-                    s_r = result.read()
-                    gzipped = result.headers.get('Content-Encoding')
-                    if gzipped:
-                        htmls = zlib.decompress(s_r, 16+zlib.MAX_WBITS)
-                        print "time==", datetime.datetime.now() - start_time
-                        # print "get_list_html-----", htmls
-                        html_list .append(htmls)
-                except Exception,e:
-                    print "gzipped,......"
+                s_r = result.read()
+                gzipped = result.headers.get('Content-Encoding')
+                if gzipped:
+                    htmls = zlib.decompress(s_r, 16+zlib.MAX_WBITS)
+                    print "time==", datetime.datetime.now() - start_time
+                    # print "get_list_html-----", htmls
+                    html_list .append(htmls)
             except socket.timeout as e:
                 print type(e)
                 print "There was an error: %r"
@@ -120,12 +117,15 @@ if __name__ == "__main__":
     url = ['https://sellercentral.amazon.com/gp/help/help.html/ref=ag_17781_bred_200712520?ie=UTF8&itemID=17781&language=zh_US']
     # url = ['https://sellercentral.amazon.com/gp/help/help.html/ref=sc_hp_rel_200712050?ie=UTF8&itemID=200712050&language=zh_US']
     # url1003 = ['https://sellercentral.amazon.com/gp/help/help.html/ref=sc_hp_rel_24761?ie=UTF8&itemID=24761&language=zh_US']
-    tmp_url = url[0]  #-----
-    url.remove(tmp_url)  #-----
+    tmp_url = url[:1]  # -----
+    del url[:1]  # -----
+    # tmp_url = url[0]
+    # print tmp_url
+    # url.remove(tmp_url)
     #  防止内存崩溃
     start_t = datetime.datetime.now()
     print "start time,", start_t
-    html = first.get_list_html(tmp_url)  #-----
+    html = first.get_list_html(tmp_url)  # -----
     print "html--", len(html)
     aim_list = first.get_list(html)
     aim_time = datetime.datetime.now()
