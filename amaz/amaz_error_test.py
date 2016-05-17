@@ -20,8 +20,8 @@ class Amazon_errmsg(object):
         self.postdata = urllib.urlencode({
             "widgetToken": "X2VuY29kaW5nPVVURjgmbGFuZ3VhZ2U9emhfQ04mb3BlbmlkLmFzc29jX2hhbmRsZT1zY19uYV9hbWF6b24mb3BlbmlkLmNsYWltZWRfaWQ9aHR0cCUzQSUyRiUyRnNwZWNzLm9wZW5pZC5uZXQlMkZhdXRoJTJGMi4wJTJGaWRlbnRpZmllcl9zZWxlY3Qmb3BlbmlkLmlkZW50aXR5PWh0dHAlM0ElMkYlMkZzcGVjcy5vcGVuaWQubmV0JTJGYXV0aCUyRjIuMCUyRmlkZW50aWZpZXJfc2VsZWN0Jm9wZW5pZC5tb2RlPWNoZWNraWRfc2V0dXAmb3BlbmlkLm5zPWh0dHAlM0ElMkYlMkZzcGVjcy5vcGVuaWQubmV0JTJGYXV0aCUyRjIuMCZvcGVuaWQubnMucGFwZT1odHRwJTNBJTJGJTJGc3BlY3Mub3BlbmlkLm5ldCUyRmV4dGVuc2lvbnMlMkZwYXBlJTJGMS4wJm9wZW5pZC5wYXBlLm1heF9hdXRoX2FnZT0wJm9wZW5pZC5yZXR1cm5fdG89aHR0cHMlM0ElMkYlMkZzZWxsZXJjZW50cmFsLmFtYXpvbi5jb20lMkZncCUyRmhlbHAlMkZoZWxwLmh0bWwlM0ZpZSUzRFVURjglMjZpdGVtSUQlM0QxNzc4MSUyNmxhbmd1YWdlJTNEemhfVVMlMjZyZWZfJTNEYWdfMTc3ODFfYnJlZF8zMDYwMSZwYWdlSWQ9c2NfbmFfYW1hem9uJnNob3dSbXJNZT0w:cGxwbE14MEVhUnlDVENweTNueEpPZXhkbUtmMEwwT2tKRnRjcUlWK3kyWT06MQ==",
             "rememberMe": "false",
-            "username": "yang@actneed.com",
-            "password": "lala2015",
+            "username": "yangguoli@actneed.com",
+            "password": "yaya2015",
             "sign-in-button": "",
             "metadata1": "OIwpGZoo1E6M203NKSfmoeknjsR5d33e1TzgHq9YfV8oCZ/XgZ0GADuoIvfUjtGapQ03NvqgxlUIDuwxZ8tqpxWtcB7eJDtxUzH46QppFCI4m3htBg80dZhVTkI7z3T5ksk+lLVOkaFstk3iIgzj0uwFoEU9x0Q9JOHvKu4u1c2pdDMtOEJOwQb0e6x/H9/jogqp5jP574i2RTpfLy9V6WnU9x1rexfE4k1g35Gpkmcr1alxTDKq2SgyyYGTgaghxusEGva/2FAFFCHlDcp28qgQXLaW4A6nzn+UiMtwb7r9ZcLchG6dW/xO2m3AVdAW27tYKhtWGBY7ij5C7Pm7dBDOiRkSMuKx0L0+l2adTQ8m59pLgo7yacWFjpbGZFsdUV2Y1L5oM7lcAsPr0O2Xq6Iwncw2dYG9DRo+Mlum6kIe6uCm7DwdrwYtKbBg+d7f+RTwyHvk1TAjWRlA+bnXBEqt22m9B7ASzFo8OJn9+2iIs5EYFIneYVtts4PzUu4m1t1uRtwmgPSzAk1bW1lZ8olEiLVGqE2uORv89gnRtSdV8YnIXV97Ol1eUg0yVReejGt3TqJ2w3AB6rqngbKmH96VdqYaYYzYzOV8vvQUkUWwH5TzcECrym3N1w5AKvgSb+481XO2Fh8BVyamF1zQW6fzS6pEOS9IAle2OP5YA3bGeeaCElW8apDbUYjL5xU8iOMxwX6ojfZ0/rcWNnE5MIun8+wX8yniyB/D2abIVpgH3AOJOUhgR9q+oDYD7EwOrfWca0zTvZRzsx02Sj8pxLG9CchuPDP6Q3SXxq/NvEQVMPpDzzjk4w==",
         })
@@ -38,11 +38,12 @@ class Amazon_errmsg(object):
         }
 
     def get_list_html(self, list_link):
-        print len(list_link), "----type--list_link--", type(list_link),
+        print len(list_link), "----type---list_link---", type(list_link),
         html_list = []
         for i in range(len(list_link)):
+            req_url = list_link[i],
             req = urllib2.Request(
-                url=list_link[i],
+                url=req_url,
                 data=self.postdata,
                 headers=self.headers
             )
@@ -64,7 +65,7 @@ class Amazon_errmsg(object):
                 print type(e)
                 print "There was an error: %r"
             except urllib2.URLError as e:
-                print type(e), "----url ===", url
+                print type(e), "----url ===", req_url
         return html_list
 
     def get_list(self, html):
@@ -119,9 +120,12 @@ if __name__ == "__main__":
     url = ['https://sellercentral.amazon.com/gp/help/help.html/ref=ag_17781_bred_200712520?ie=UTF8&itemID=17781&language=zh_US']
     # url = ['https://sellercentral.amazon.com/gp/help/help.html/ref=sc_hp_rel_200712050?ie=UTF8&itemID=200712050&language=zh_US']
     # url1003 = ['https://sellercentral.amazon.com/gp/help/help.html/ref=sc_hp_rel_24761?ie=UTF8&itemID=24761&language=zh_US']
+    tmp_url = url[0]  #-----
+    url.remove(tmp_url)  #-----
+    #  防止内存崩溃
     start_t = datetime.datetime.now()
     print "start time,", start_t
-    html = first.get_list_html(url)
+    html = first.get_list_html(tmp_url)  #-----
     print "html--", len(html)
     aim_list = first.get_list(html)
     aim_time = datetime.datetime.now()
