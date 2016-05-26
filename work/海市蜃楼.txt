@@ -156,3 +156,10 @@ shentong
 :
 论“零口供”对刑事侦查学之影响与对策
 
+
+
+lucene的升级版
+可以说是hadoop的前身
+nutch相对于 lucene 多加了 爬虫功能
+之后 整合了 NDFS 
+hadoop 是完全自己的HDFS
