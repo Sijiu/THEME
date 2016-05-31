@@ -384,6 +384,26 @@ redis的主从同步 通信原理是什么
 --------530--
 Avocado 鳄梨，胺黄绿色
 
+--------531--
+
+没计划的日常，简直是人生的悲剧，似乎在不停的迷失。
+
+1、装饰，单例，工厂，策略，代理
+2、接口设计
+3、http://www.cnblogs.com/zfc2201/p/3423370.html
+	研究一下xxx.github.io/搭建博客的流程
+4、Clean Code
+
+弄私有云呢keystone，chef
+我只弄keystone相关，什么Nova，glance没接触
+前群里二护准备去做horizen
+
+不基于OS
+提供的vm的OS大多数都有
+【武汉】木  18:38:43
+openstack在红帽上
+
+
 
 
 
