@@ -407,7 +407,19 @@ DatagramSocket
 
 netty
 
+PGC YGC Eden区  
+ PermGen这地方 主要是满了之后 清除没有实例的类信息和ClassLoader的
 
+Perm Gen  是FGC处理的
+
+----------linux--
+tar -zcvf 压缩后的文件名称.tar.gz  要压缩的文件名称
+
+tar -zxvf 要解压的文件名称.tar.gz (直接解压，文件就在当前目录下)
+
+pwd 查看当前路径
+
+scp 远程复制
 
 
 
