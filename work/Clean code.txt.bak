@@ -93,6 +93,11 @@ mongoexport -h IP --port ¶Ë¿Ú -u ÓÃ»§Ãû -p ÃÜÂë -d Êý¾Ý¿â -c ±íÃû -f ×Ö¶Î -q Ìõ¼
 	2.´¹Ö±¸ñÊ½£¬¶ÔÊý±ê³ß
 	2.2 ¸ÅÄî¼ä´¹Ö±·½ÏòÉÏµÄ·Ö¸î Ã¿¸öº¯ÊýÖ®¼äÓÐÒ»¸ö¿Õ°×ÐÐ·Ö¸î
 	
+	2.4 ±äÁ¿ÉùÃ÷ ±äÁ¿ÉùÃ÷Ó¦¸Ã¾¡Á¿¿¿½üÆäÊ¹ÓÃÎ»ÖÃ
+				Ñ­»·¿ØÖÆ±äÁ¿·ÅÔÚÑ­»·ÄÚ²¿»òÕß¶¥²¿
+				ÊµÌå±äÁ¿ Ó¦¸ÃÔÚÀàµÄ¶¥²¿ÉùÃ÷ c++µÄ(scissors rule) ·ÅÔÚµ×²¿
+				
+	
 	
 
 
