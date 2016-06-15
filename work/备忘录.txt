@@ -442,6 +442,14 @@ Agile Sofeware Development 敏捷软件开发
 6-14--
 bug fix for different productSKUs increased
 
+6-15---
+修改速卖通属性的渲染类似amazon，（这是什么？）
+
+bug fix
+
+C:\Windows\System32\drivers\etc host location
+
+
 
 
 
