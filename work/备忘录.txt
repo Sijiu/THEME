@@ -449,6 +449,9 @@ bug fix
 
 C:\Windows\System32\drivers\etc host location
 
+jsonp 很好的一篇文章
+http://www.cnblogs.com/dowinning/archive/2012/04/19/json-jsonp-jquery.html
+
 
 
 
