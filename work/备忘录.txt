@@ -452,6 +452,8 @@ C:\Windows\System32\drivers\etc host location
 jsonp 很好的一篇文章
 http://www.cnblogs.com/dowinning/archive/2012/04/19/json-jsonp-jquery.html
 
+select DATE_FORMAT(create_date, '%Y-%m-%d'),count(*) from user where create_date >= DATE_SUB(NOW(),INTERVAL 7 DAY) group by DATE_FORMAT(create_date, '%Y-%m-%d');
+
 
 
 
