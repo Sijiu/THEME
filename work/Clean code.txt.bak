@@ -74,6 +74,11 @@ mongoexport -h IP --port ¶Ë¿Ú -u ÓÃ»§Ãû -p ÃÜÂë -d Êý¾Ý¿â -c ±íÃû -f ×Ö¶Î -q Ìõ¼
 -q    ¿ÉÒÔ¸ù²éÑ¯Ìõ¼þµ¼³ö£¬-q '{ "uid" : "100" }' µ¼³öuidÎª100µÄÊý¾Ý
 --csv ±íÊ¾µ¼³öµÄÎÄ¼þ¸ñÊ½ÎªcsvµÄ£¬Õâ¸ö±È½ÏÓÐÓÃ£¬ÒòÎª´ó²¿·ÖµÄ¹ØÏµÐÍÊý¾Ý¿â¶¼ÊÇÖ§³Öcsv£¬ÔÚÕâÀïÓÐ¹²Í¬µã
 
+
+3.8
+
+3.9.1 ³éÀëtry catch ´úÂë¿é
+			´íÎó´¦Àí¾ÍÊÇÒ»¼þÊÂ
 3.14
 
 
@@ -107,6 +112,8 @@ mongoexport -h IP --port ¶Ë¿Ú -u ÓÃ»§Ãû -p ÃÜÂë -d Êý¾Ý¿â -c ±íÃû -f ×Ö¶Î -q Ìõ¼
 				
 		3.2 Ë®Æ½¶ÔÆë
 				---£¡¾¡Á¦¶ÔÆëÒ»×éÉùÃ÷ÖÐµÄ±äÁ¿Ãû
+		3.3 Ëõ½ø
+		3.4 ¿Õ·¶Î§
 				
 				
 	
