@@ -456,7 +456,17 @@ select DATE_FORMAT(create_date, '%Y-%m-%d'),count(*) from user where create_date
 
 
 ...
+concurrenthashmap
 
+copyonwritearrayset实现原理之类
+
+ spring啊   线程啊   tcp啊   
+
+负载均衡是想问你分布式方面
+锁的话是想问你爱线程
+内存数据库现在还有人用吗 一般都memcached或者redis吧
+pmp 证书
+再就是数据量 你会被问到你这个网站的pv qps
 
 
 
