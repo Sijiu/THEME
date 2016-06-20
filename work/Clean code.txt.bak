@@ -79,6 +79,9 @@ mongoexport -h IP --port ¶Ë¿Ú -u ÓÃ»§Ãû -p ÃÜÂë -d Êý¾Ý¿â -c ±íÃû -f ×Ö¶Î -q Ìõ¼
 
 3.9.1 ³éÀëtry catch ´úÂë¿é
 			´íÎó´¦Àí¾ÍÊÇÒ»¼þÊÂ
+			
+3.11 ½á¹¹»¯±à³Ì
+		µ¥Èëµ¥³öÔ­Ôò
 3.14
 
 
@@ -114,7 +117,20 @@ mongoexport -h IP --port ¶Ë¿Ú -u ÓÃ»§Ãû -p ÃÜÂë -d Êý¾Ý¿â -c ±íÃû -f ×Ö¶Î -q Ìõ¼
 				---£¡¾¡Á¦¶ÔÆëÒ»×éÉùÃ÷ÖÐµÄ±äÁ¿Ãû
 		3.3 Ëõ½ø
 		3.4 ¿Õ·¶Î§
-				
+		
+6 ¶ÔÏóºÍÊý¾Ý½á¹¹
+	1. Êý¾Ý³éÏó
+		
+	2.Êý¾Ý¡¢¶ÔÏóµÄ·´¶Ô³ÆÐÔ
+		¹ý³ÌÊ½´úÂë---Ê¹ÓÃµÄÊÇÊý¾Ý½á¹¹
+		ÃæÏò¶ÔÏóµÄ´úÂë---Ò×ÓÚÌí¼ÓÐÂÀà
+		
+		
+		VISITORÄ£Ê½   --£¨Ë«Ïò·ÖÅÉ£©
+		
+	3.µÂÄ«ß¯¶ûÂÉ £¨The law of Demeter£©				
+		¶ÔÏó²»Ó¦¸ÃÍ¨¹ý´æÈ¡±©Â¶ÆäÄÚ²¿½á¹¹
+		Apache¿ò¼ÜÄ³´¦
 				
 	
 	
