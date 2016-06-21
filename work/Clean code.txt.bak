@@ -132,6 +132,13 @@ mongoexport -h IP --port ¶Ë¿Ú -u ÓÃ»§Ãû -p ÃÜÂë -d Êý¾Ý¿â -c ±íÃû -f ×Ö¶Î -q Ìõ¼
 		¶ÔÏó²»Ó¦¸ÃÍ¨¹ý´æÈ¡±©Â¶ÆäÄÚ²¿½á¹¹
 		Apache¿ò¼ÜÄ³´¦
 				
+	6.33  //////////////////////////
+	
+	6.4 Êý¾Ý´«ËÍ¶ÔÏó
+			Ö»ÓÐ¹«¹²±äÁ¿¡¢Ã»ÓÐº¯ÊýµÄÀà¡£±»³ÆÎª£ºÊý¾Ý´«ËÍ¶ÔÏó DTO(Data Transfer Objects)
+					ÓëÊý¾Ý¿âÍ¨ÐÅ»òÕß½âÎöÌ×½Ó×Ö´«µÝµÄÏûÏ¢Ö®ÀàµÄ³¡¾°ÖÐ
+					
+			¶¹½á¹¹£¨bean£©
 	
 	
 
