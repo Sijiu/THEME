@@ -138,8 +138,26 @@ mongoexport -h IP --port ¶Ë¿Ú -u ÓÃ»§Ãû -p ÃÜÂë -d Êý¾Ý¿â -c ±íÃû -f ×Ö¶Î -q Ìõ¼
 			Ö»ÓÐ¹«¹²±äÁ¿¡¢Ã»ÓÐº¯ÊýµÄÀà¡£±»³ÆÎª£ºÊý¾Ý´«ËÍ¶ÔÏó DTO(Data Transfer Objects)
 					ÓëÊý¾Ý¿âÍ¨ÐÅ»òÕß½âÎöÌ×½Ó×Ö´«µÝµÄÏûÏ¢Ö®ÀàµÄ³¡¾°ÖÐ
 					
-			¶¹½á¹¹£¨bean£©
+			¶¹½á¹¹£¨bean£© OO´¿»¯ÂÛÕß
+			
+			Active Recode ÊÇÒ»ÖÖÌØÊâµÄDTO ÓµÓÐ¹«¹²£¨»ò¿É¶¹Ê½·ÃÎÊµÄ£©±äÁ¿µÄÊý¾Ý½á¹¹
+					Ò»°ãÊÇ¶ÔÊý¾Ý¿â»òÆäËûÊý¾Ý½á¹¹µÄÖ±½Ó·­Òë
+					
+			ÍùÊý¾Ý»ú¹¹ÖÐÈû½øÒµÎñ¹æÔò·½·¨--Êý¾Ý½á¹¹ºÍ¶ÔÏóµÄ»ìÔÓÌå
 	
 	
+7 ´íÎó´¦Àí
 
+	1¡¢Ê¹ÓÃÒì³£¶ø·Ç·µ»ØÂë
+	
+	¡­¡­
+	
+8 ¡­¡­
+
+
+9¡­¡­
+
+
+10 Àà
+	1¡¢µ¥Ò»È¨ÔðÔ­Ôò SRP
 
