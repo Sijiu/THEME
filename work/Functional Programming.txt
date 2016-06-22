@@ -1,0 +1,8 @@
+1、 我们在做什么？flock
+	ck_a.breed(flock_b)).seagulls;
+	multiply(flock_b, add(flock_a, flock_a));
+	结合律
+	
+2、“一等公民”的函数
+	用一个函数把另一个函数包起来，目的仅仅是延迟执行
+	
