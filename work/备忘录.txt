@@ -492,6 +492,12 @@ session.query(User).filter(User.name.like('%ed')).count() 好慢，8W数据50s
 java  基本数据类型为什么放在jvm堆栈的栈里
 
 
+ http://www.pythontab.com
+Python论坛: http://bbs.pythontab.com
+手册大全: http://docs.pythontab.com
+
+redis 关于换行strip('\n')
+
 
 
 
