@@ -489,6 +489,9 @@ session.query(User).filter(User.name.like('%ed')).count() 好慢，8W数据50s
 >>> session.query(func.count(User.id)).scalar() 不到1s
 
 
+java  基本数据类型为什么放在jvm堆栈的栈里
+
+
 
 
 
