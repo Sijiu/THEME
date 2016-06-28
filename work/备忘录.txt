@@ -472,6 +472,24 @@ pmp 证书
 看您敲代码也是捉急啊。哥哥你是怎么混了四年的？
 
 
+jvm，调优，源码，12K
+
+
+面试要问清楚 1、是否加班 
+2、加班费，调休
+3、社保交基本工资还是全薪
+4、试用期工资几折，试用期时间
+
+
+Truncated 截断
+
+神奇的func.count()与scalar()
+session.query(User).filter(User.name.like('%ed')).count() 好慢，8W数据50s
+当然如果我们直接统计User的主键，上面的语句可以更加简练，我们可以省去select_from()方法：
+>>> session.query(func.count(User.id)).scalar() 不到1s
+
+
+
 
 
 
