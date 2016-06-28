@@ -1,0 +1,16 @@
+# today_supply = Supply.get_every_day_count(session, start_date, end_date.strftime("%Y-%m-%d"), "")
+            # today_shop = Shop.get_every_day_count(session, start_date, end_date.strftime("%Y-%m-%d"))
+            # today_register = User.get_every_day_count(session, start_date, end_date.strftime("%Y-%m-%d"))
+            # if today_supply:
+            #     today_supply_count = today_supply.values()[0]
+            # else:
+            #     today_supply_count = 0
+            # if today_shop:
+            #     today_shop_count = today_shop.values()[0]
+            # else:
+            #     today_shop_count = 0
+            # if today_register:
+            #     today_register_count = today_register.values()[0]
+            # else:
+            #     today_register_count = 0
+---------------------mysql Õ≥º∆¡Ÿ ±        
