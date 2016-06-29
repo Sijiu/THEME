@@ -503,6 +503,8 @@ redis 关于换行strip('\n')
 
 双亲委托java
 
+js babel ES 6
+
 
 
 
