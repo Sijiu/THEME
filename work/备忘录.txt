@@ -501,6 +501,8 @@ redis 关于换行strip('\n')
 >suggest_comp && redis-cli -h 192.168.80.35 -p 6014 --raw keys suggest_comp_5173* > suggest_comp_keys && for key in `cat suggest_comp_keys`; do value=`redis-cli -h 192.168.80.35 -p 6014 --raw get $key`;newkey=${key:13};echo -e $newkey"\t"$value >> suggest_comp; done;
 
 
+双亲委托java
+
 
 
 
