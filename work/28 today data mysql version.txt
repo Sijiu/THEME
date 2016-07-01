@@ -1,16 +1,45 @@
-# today_supply = Supply.get_every_day_count(session, start_date, end_date.strftime("%Y-%m-%d"), "")
-            # today_shop = Shop.get_every_day_count(session, start_date, end_date.strftime("%Y-%m-%d"))
-            # today_register = User.get_every_day_count(session, start_date, end_date.strftime("%Y-%m-%d"))
-            # if today_supply:
-            #     today_supply_count = today_supply.values()[0]
-            # else:
-            #     today_supply_count = 0
-            # if today_shop:
-            #     today_shop_count = today_shop.values()[0]
-            # else:
-            #     today_shop_count = 0
-            # if today_register:
-            #     today_register_count = today_register.values()[0]
-            # else:
-            #     today_register_count = 0
----------------------mysql Õ≥º∆¡Ÿ ±        
+eBay£∫{
+//    3: "US",
+        //    4: "Canada",
+        //    5: "UK",
+        //    6: "Germany",
+        //    7: "Australia",
+        //    8: "France",
+        //    9: "Italy",
+        //    10: "Netherlands",
+        //    11: "Spain",
+        //    12: "India",
+        //    13: "HongKong",
+        //    14: "Singapore",
+        //    15: "Malaysia",
+        //    16: "Philippines",
+        //    17: "CanadaFrench",
+        //    18: "Poland",
+        //    19: "Belgium_Dutch",
+        //    20: "Belgium_French",
+        //    21: "Austria",
+        //    22: "Switzerland",
+        //    23: "Ireland",
+        //    24: "eBayMotors"
+        //},
+        //},
+}
+Amazon 7
+44	Canada
+45	US
+46	Germany
+47	Spain
+48	France
+49	India
+50	Italy
+51	UK
+52	Japan
+53	China
+
+9lazada
+25	Malaysia
+26	Thailand
+27	Indonesia
+28	Singapore
+
+31	Russia
