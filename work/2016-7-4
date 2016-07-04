@@ -1,0 +1,10 @@
+bug：
+  1、概览图默认选中"周"或者"月"
+√ 2、近一周，近一月下的线条 border_bottom
+√ 3、今日数据的None应该为0, 在today_translate_count 后 or 0
+√ 4、搜索上边的筛选条件显示出来 $(".shop_table").html()修改即可
+5、搜索使用模糊匹配  mysql——like mongo and redis regx
+6、注意radio与文字之间的距离
+7、"查看" 处注意 cursor:pointer
+8、搜索框前边的按钮改为 radio 默认有一个被选中
+9、"店铺统计"页面的"成员管理"按钮放到 "详细"用户查看里边
