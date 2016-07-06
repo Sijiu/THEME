@@ -1,10 +1,19 @@
+2016-7-4 10:10:51
 bug：
-  1、概览图默认选中"周"或者"月"
+√ 1、概览图默认选中"周"或者"月" addClass("on")
 √ 2、近一周，近一月下的线条 border_bottom
 √ 3、今日数据的None应该为0, 在today_translate_count 后 or 0
 √ 4、搜索上边的筛选条件显示出来 $(".shop_table").html()修改即可
-5、搜索使用模糊匹配  mysql——like mongo and redis regx
-6、注意radio与文字之间的距离
-7、"查看" 处注意 cursor:pointer
-8、搜索框前边的按钮改为 radio 默认有一个被选中
-9、"店铺统计"页面的"成员管理"按钮放到 "详细"用户查看里边
+√ 5、搜索使用模糊匹配  mysql——like mongo and redis regx  User.name.like("%"+name+""),and_(xxx, xxx)
+√ 6、注意radio与文字之间的距离
+√ 7、"查看" 处注意 cursor:pointer
+√ 8、搜索框前边的按钮改为 radio 默认有一个被选中 if($("#xx").prop("checked") == "value")
+√ 9、"店铺统计"页面的"成员管理"按钮放到 "详细"用户查看里边  href="/xxx?xx&xx"
+2016-7-5 10:11:01
+ 1、 修改plugin.html文档
+ 2、使用插件1、intro.js
+      2、jquery插件pagewalkthrough
+  3、最后使用GifCamera制作gif解决
+  ------总结：翻来覆去的总是那么点东西，多是因为当时没有很好的规划.
+2016-7-6 10:15:43
+  
