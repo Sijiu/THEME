@@ -1,0 +1,42 @@
+数据挖掘涵盖面很广，系统的学习个人建议依照以下路线：
+
+找一本教材，个人推荐李航的《统计机器学习》
+可以去看网易上关于机器学习的公开课，是Standford的Prof. Ng的视频课程，超级棒。
+结合教材和视频，将机器学习算法的公式推一遍，然后用Matlab或者python跑一跑数据，找点感觉。
+对于数学也要加强，特别在概率论方面。
+
+上面说的是机器学习，其实已经包括了数据挖掘的大部分，在上面了解的差不多之后 ，可以试着去做一些有意思的项目，比如去分析女神的微博情感，或者参加一些数据挖掘比赛，kaggle上有很多比赛可以去做。
+
+https://www.quora.com/How-can-I-become-a-data-scientist-1?redirected_qid=59455
+1/Learn about matrix factorizations 矩阵分解
+2、Learn about distributed computing 分布式计算
+Learn about matrix factorizations
+Learn about distributed computing
+Learn about statistical analysis
+Learn about optimization
+Learn about machine learning
+Learn about information retrieval
+Learn about signal detection and estimation
+Master algorithms and data structures
+Practice
+Study Engineering
+
+了解矩阵的分解
+
+了解分布式计算
+
+了解统计分析
+
+学习优化
+
+学习机器学习
+
+了解信息检索
+
+了解信号检测和估计
+
+主算法和数据结构
+
+实践
+
+研究工程
