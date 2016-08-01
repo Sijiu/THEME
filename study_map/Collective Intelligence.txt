@@ -1,0 +1,17 @@
+1、集体智慧导言
+	What is Machine Learning？
+	Limits of Machine Learning。
+		机器学习算法受限于其在大量模式之上的归纳能力
+	Other use for Learning Algorithms
+	生物工艺技术
+	金融欺诈侦测
+	机器视觉
+	产品市场化
+	供应链优化
+	股票市场分析
+	国家安全
+
+2、提供推荐
+	协作型过滤 Collaborative Filtering
+		1-搜集偏好  --- 嵌套字典
+		2-寻找相近用户 --- 相似度评价值：欧几里得相关距离、皮尔逊相关度
