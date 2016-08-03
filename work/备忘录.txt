@@ -560,6 +560,15 @@ reverse œ‡∑¥
 python help()
 
 
+god
+	help
+	  me 
+	  	i
+	  		got
+	  			 the
+	  			 		mobile...
+
+
 
 
 
