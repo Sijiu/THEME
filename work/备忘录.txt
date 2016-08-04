@@ -556,6 +556,29 @@ reverse 相反
 	 上边的这几点又该如何去衡量？加油吧。
 	 
 	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 XMLHttpRequest：
+	 	readyState: 0 未初始化，
+	 							1 方法成功调用 但是SendF方法未调用
+	 							2 send 已调用，尚未开始接收数据
+	 							3 正在接收数据。Http响应头信息已经接收， 但是尚未接收完成
+	 							4 完成，即响应接收完数据
+	 Onreadystatechange: 请求状态改变的事件触发器 readyState变化时会调用的							
+	 
+	 
 15分钟	 
 python help()
 
