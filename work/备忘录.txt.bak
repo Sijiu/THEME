@@ -559,6 +559,17 @@ reverse 相反
 	 
 	 
 	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
 	 XMLHttpRequest：
 	 	readyState: 0 未初始化，
 	 							1 方法成功调用 但是SendF方法未调用
