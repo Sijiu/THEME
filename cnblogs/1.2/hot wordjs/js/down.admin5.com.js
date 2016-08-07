@@ -96,7 +96,7 @@ function update()
             mcList[i].y = ry3 * per;
             mcList[i].scale = per;
             var alpha = per;
-            alpha = (alpha - 0.2) * (10 / 1.7);
+            alpha = (alpha - 0.6) * (10 / 6);
             mcList[i].alpha = alpha * alpha * alpha - 0.2;
             mcList[i].zIndex = Math.ceil(100 - Math.floor(mcList[i].cz));
         }
