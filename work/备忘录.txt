@@ -611,7 +611,9 @@ give a aim， give a goal。
 
  ESLint:多人合作，代码约束
 
-eslint
+
+Propagation 传播
+
 
  			 		
 
