@@ -1,0 +1,3 @@
+select，poll，epoll都是IO多路复用的机制。
+
+装饰器
