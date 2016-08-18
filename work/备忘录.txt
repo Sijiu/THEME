@@ -614,6 +614,11 @@ Propagation 传播
 
 简直是傻逼至极啊
 
+
+
+tail -f log/nginx/nginx_error.log
+
+
 真是一口老血喷涌而出
 这种工作水平也是没有谁了 醉醉 的啊。
 
