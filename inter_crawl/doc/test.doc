@@ -1,0 +1,257 @@
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <base href="http://www.dataanswer.top:80/">
+    <title>DataAnswer导航</title>
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+	<link rel="stylesheet" type="text/css" href="/css/common.css">
+  </head>
+  <script type="text/javascript" src="/js/main.js" charset="gbk"></script>
+  <body>
+    <div class="w_body">
+     <!-- 顶部关注 -->
+     <div class="top_body">
+      <div class="top_body_div1"><img alt="微信:zycnb1"  src=""><a href="">关注DataAnswer</a>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+      <div class="top_body_div2"><a onclick="AddFavorite(window.location,document.title)" href="javascript:void(0)">★加入收藏 </a>&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="SetHome(window.location)" href="javascript:void(0)">设为首页</a></div> 
+     </div>
+     
+     <!-- 中间-->
+     <div class="m_body">
+     <!--中间 上部 -->
+     <div class="m_body_top">
+       <div class="m_body_top_left">
+          <span><font class="font_style2">DataAnswer</font><br>
+          <font class="font_style5">www.dataanswer.top</font></span>
+       </div>
+       <div class="m_body_top_mid">
+          <form target="_blank" id="form1">
+          <div class="m_body_top_mid_left">
+             <input type="text" name="word">
+          </div>
+          <div class="m_body_top_mid_right">
+                  <font class="font_style4"><a href="javascript:void(0)" onclick="subForm()">搜索</a></font>
+          </div>
+          <div class="m_body_top_mid_bom">
+               <table>
+                 <tr><td></td><td><input type="radio" name="serach_type" value="baidu" checked>百度</td><td></td>
+                 <td><input type="radio" name="serach_type" value="goole" >谷歌</td><td></td></tr>
+               </table>  
+          </div>
+        </form>
+       </div>
+       <div class="m_body_top_right">
+         <div class="m_body_top_right_top">
+             <font id="time" class="font_style1">
+             <script>  
+               setInterval("document.getElementById('time').innerHTML=new Date().toLocaleString();",1000);       
+             </script><br>
+             </font>
+         </div>
+         <div class="m_body_top_right_bom">        
+                            <font class="font_style7">邮箱登录:</font>
+          <select onchange="goEmial()" id="emil">
+          <option value="emil">弹出登录界面</option>
+          <option value="https://mail.qq.com/cgi-bin/loginpage">@qq.com</option>
+          <option value="https://reg.163.com/logins.jsp?username=%var%&password=%num%&url=http://fm163.163.com/coremail/fcg/ntesdoor2">@163.com</option>
+          <option value="http://www.126.com/">@126.com</option>
+          <option value="http://mail.sohu.com/">@sohu.com</option>
+          <option value="http://mail.sina.com.cn/">@sina.com</option>
+          <option value="http://mail.10086.cn/">@139.com</option>
+          <option value="https://mail.aliyun.com/alimail/auth/login?reurl=%2Falimail%2F">@阿里云邮箱</option>
+          <option value="https://login.taobao.com/member/login.jhtml">@淘宝账号</option>
+          <option value="http://weibo.com/">@新浪微博</option>
+          <option value="https://passport.csdn.net/account/login">@CSDN</option>
+          <option value="https://www.oschina.net/home/login?goto_page=http%3A%2F%2Fwww.oschina.net%2Fcode%2Fsnippet_2248611_39213">@开源中国</option>
+          </select>  
+          <br> 
+         </div>
+       </div>
+     </div>
+     
+     <!-- 中间中左部 -->
+     <div class="m_body_left">
+       <div class="m_body_left_d1">
+         <span><font class="font_style6"><a href="">跨界融合</a></font></span>
+       </div>
+       <div class="m_body_left_d2">
+         <table>
+           <tr><td><font class="font_style7">互联网+媒体</font></td><td><a href="http://www.alibuybuy.com/">互联网那点事</a></td><td><a href="http://www.199it.com/">互联网数据中心</a></td><td><a href="http://www.solidot.org/">奇客的资讯</a></td><td><a href="http://www.itxinwen.com/">IT新闻网</a></td><td><a href="http://www.techxue.com/">互联网分析沙龙</a></td><td><a href="http://www.techweb.com.cn/">Techweb</a></td><td class="main_td"><a href="/NavService?action=goMore11">>></a></td></tr>
+           <tr><td><font class="font_style7">互联网+医疗</font></td><td><a href="http://www.hc3i.cn/">中国数字医疗</a></td><td><a href="http://www.baidu.com/link?url=PzhMU0Bt2IVQTucvfcY18B2BgOd-86MJmlvLx-gagIS&wd=&eqid=860a7ae5000042230000000255a12326">HIT专家网</a></td><td><a href="http://www.dxy.cn/">丁香园</a></td><td><a href="http://www.doctorjob.com.cn/">中国医疗人才</a></td><td><a href="http://www.hospital2.com/">医院挂号网</a></td><td><a href="http://www.vcbeat.net/">动脉网</a></td><td class="main_td"><a href="/NavService?action=goMore13">>></a></td></tr>
+           <tr><td><font class="font_style7">互联网+教育</font></td><td><a href="http://www.medu.org.cn/">互联网教育研院</a></td><td><a href="http://www.vko.cn/">微课网</a></td><td><a href=" http://www.fenbi.com">粉笔网</a></td><td><a href="http://www.imooc.com/">慕课网</a></td><td><a href="http://www.chuanke.com/">传课网</a></td><td><a href="http://edu.yy.com/">yy教育</a></td><td class="main_td"><a href="/NavService?action=goMore13">>></a></td></tr>
+           <tr><td><font class="font_style7">互联网+经融</font></td><td><a href="http://www.renrendai.com/?utmSource=pc_pz_baidu&src=Baidu&medium=PPC&Network={mediatype}&kw={keywordid}&ad={creative}&site={placement}&ag_kwid=337-20-67b025027079c8c6.4d77793cc0608f64">人人贷</a></td><td><a href="http://view.1688.com/cms/info/loan/2010/xinxibaoguang/01.html">阿里金融</a></td><td><a href="http://www.yooli.com/">有利网</a></td><td><a href="http://www.zhongchou.com/">众筹</a></td><td><a href="http://www.yirendai.com/?utm_source=utm_baidu&utm_medium=search&utm_term=&utm_content=标题&utm_campaign=标题">宜人贷</a></td><td><a href="http://www.ppdai.com/landinggx.html?regsourceid=42&se=jinrong=pc&utm_source=baiducf&utm_medium=cpc&utm_campaign=gongxindai&utm_content=&utm_term=">拍拍贷</a></td><td class="main_td"><a href="/NavService?action=PtoP">>></a></td></tr>
+           <tr><td><font class="font_style7">互联网+餐饮</font></td><td><a href="http://www.nuomi.com/?utm_source=baidu&utm_medium=brand_wangye&utm_term=&utm_content=&utm_campaign=title&cid=002301">百度糯米</a></td><td><a href="http://bj.meituan.com/?utm_campaign=baidu&utm_medium=organic&utm_source=baidu&utm_content=homepage&utm_term=">美团</a></td><td><a href="http://www.dianping.com">大众点评网</a></td><td><a href="http://www.55tuan.com/">窝窝团</a></td><td><a href="http://www.lashou.com/">拉手网</a></td><td><a href="http://v5.ele.me/?force">饿了么</a></td><td class="main_td"><a href="/NavService?action=goMore13">>></a></td></tr>
+           <tr><td><font class="font_style7">互联网+旅游</font></td><td><a href="http://www.tuniu.com/?p=1400&cmpid=mkt_06002401&utm_source=baidu&utm_medium=brand&utm_campaign=brand">途牛旅游网</a></td><td><a href="http://www.oooztour.com/">在途网</a></td><td><a href="http://www.zobei.com">走呗网</a></td><td><a href="http://www.ctrip.com/?utm_source=baidu&utm_medium=cpc&utm_campaign=baidu81&campaign=CHNbaidu81&adid=index&gclid=&isctrip=T">携程</a></td><td><a href="http://www.qyer.com/">穷游网</a></td><td><a href="http://www.qunar.com/">去哪儿</a></td><td class="main_td"><a href="/NavService?action=goMore13">>></a></td></tr>
+           <tr><td><font class="font_style7">互联网+农业</font></td><td><a href="http://www.nongmai.net/">农卖网</a></td><td><a href="http://www.nongcun5.com/">中国农村网</a></td><td><a href="http://www.zgsnw.cn/">中国三农网</a></td><td><a href="http://www.agri.cn/">农业信息网</a></td><td><a href="http://www.farmer.com.cn/">农业新闻网</a></td><td><a href="http://www.nongcun5.com/">农村网</a></td><td class="main_td"><a href="/NavService?action=goMore13">>></a></td></tr>
+           <tr><td><font class="font_style7">互联网+工业</font></td><td><a href="http://www.cnscn.com.cn/">中国智慧城市</a></td><td><a href="http://www.3swin.cn/">工业互联网论坛</a></td><td><a href="http://www.ca800.com/">中国自动化网</a></td><td><a href="http://www.cheyun.com/tags/车联网">车联网</a></td><td><a href="http://www.cnii.com.cn/">中国信息产业网</a></td><td><a href="http://www.ciiaii.org.cn/">CIIAII</a></td><td class="main_td"><a href="/NavService?action=goMore13">>></a></td></tr>
+           <tr><td><font class="font_style7">互联网+智慧生活</font></td><td><a href="https://www.shfft.com/">付费通</a></td><td><a href="http://www.10086.cn/index_5074.htm">移动营业厅</a></td><td><a href="https://cshall.alipay.com/hall/index.htm">支付宝</a></td><td><a href="http://bj.58.com">58</a></td><td><a href="http://bj.ganji.com/">赶集</a></td><td><a href="www.soufun.com">搜房网</a></td><td class="main_td"><a href="/NavService?action=goMore13">>></a></td></tr>
+         </table>
+       </div>
+       
+       <div class="m_body_left_d1">
+         <span><font class="font_style6"><a href="">大众创业</a></font></span>
+       </div>
+       <div class="m_body_left_d2">
+         <table>
+           <tr><td><font class="font_style7">创业融资</font></td><td><a href="http://vc.iheima.com/">i黑马投融平台</a></td><td><a href="http://www.chinaventure.com.cn/">ChinaVenture</a></td><td><a href="http://www.pedaily.cn/">投资界</a></td><td><a href="http://angelcrunch.com/">天使汇</a></td><td><a href="http://www.cyzone.cn/">创业邦</a></td><td><a href="http://www.pedaily.cn/">投资界</a></td><td><a href="https://www.vc.cn/">苏河汇</a></td><td class="main_td1"><a href="/NavService?action=goMore1">>></a>&nbsp;&nbsp;</td></tr>
+           <tr><td><font class="font_style7">沙龙活动</font></td><td><a href="http://www.bukop.com/?page_id=9">创业沙龙</a></td><td><a href="http://www.lanhan.cn/">懒汉互联</a></td><td><a href="http://tech.163.com/special/wudaokou/">网易五道口</a></td><td><a href="http://www.techweb.com.cn/lmz/">IT龙门阵</a></td><td><a href="http://36kr.com/tag/36氪开放日">&nbsp;36氪开放日</a></td><td><a href="http://www.pedaily.cn/">投资界</a></td><td><a href="http://event.meihua.info/">梅花之友</a></td><td class="main_td1"><a href="/NavService?action=goMore2">>></a>&nbsp;&nbsp;</td></tr>
+           <tr><td><font class="font_style7">创业咖啡</font></td><td><a href="http://www.3wcoffee.com/">3W咖啡</a></td><td><a href="http://weibo.com/aitacafe">爱塔咖啡</a></td><td><a href="http://www.cafebeta.com/">贝塔咖啡</a></td><td><a href="http://weibo.com/democoffee">Demo咖啡</a></td><td><a href="http://weibo.com/innovcafe">创新咖啡</a></td><td><a href="http://weibo.com/isyphon">新咖啡</a></td><td><a href="http://weibo.com/atcafeme">爱特咖啡</a></td><td class="main_td1"><a href="/NavService?action=goMore2">>>&nbsp;&nbsp;</a></td></tr>
+           <tr><td><font class="font_style7">孵 化 器</font></td><td><a href="http://www.stefg.org/default.aspx">上海大学生创业基金</a></td><td><a href="http://www.szsbi.org.cn/index1.asp">深圳孵化器平台</a></td><td><a href="http://www.innovation-camp.com/">快创营</a></td><td><a href="http://innospring.net/cn/">Innospring</a></td><td><a href="http://www.iheima.com/html/hmgc/">黑马工场</a></td><td><a href="http://www.iheima.com/html/hmgc/">黑马工场</a></td><td><a href="http://chinaccelerator.com/">中国加速</a></td><td class="main_td1"><a href="/NavService?action=goMore1">>></a>&nbsp;&nbsp;</td></tr>
+           <tr><td><font class="font_style7">企业管理</font></td><td><a href="http://www.gemag.com.cn/">环球企业家</a></td><td><a href="http://www.haosou.com/s?ie=utf-8&src=se7_drag&q=中国企业家">中国企业家</a></td><td><a href="http://www.chinaceot.com/">总裁网</a></td><td><a href="http://www.youmi.cn/">优米网 </a></td><td><a href="http://www.topcfo.net/">首席财务官</a></td><td><a href="http://bbs.21manager.com/forum.php">栖息谷</a></td><td><a href="http://www.nbd.com.cn/">每经网 </a></td><td class="main_td1"><a href="/NavService?action=goMore3">>></a>&nbsp;&nbsp;</td></tr>
+         </table>
+       </div>
+       
+       <div class="m_body_left_d1">
+         <span><font class="font_style6"><a href="">万众创新</a></font></span>
+       </div>
+       <div class="m_body_left_d2">
+         <table>
+           <tr><td><font class="font_style7">大数据</font></td><td><a href="http://www.36dsj.com/">36大数据</a></td><td><a href="http://www.digihail.com/">数字冰雹</a></td><td><a href="http://www.cn.migocorp.com/sc/">&nbsp;Migo</a></td><td><a href="http://www.transwarp.io/">星环科技</a></td><td><a href="">神州通用</a></td><td><a href="http://bigengine.baidu.com/">百度数据引擎</a></td><td><a href="http://www.dratio.com/">缔元信</a></td><td><a href="http://spss-market.r.blog.163.com/">数据挖掘</a></td><td class="main_td2">&nbsp;&nbsp;<a href="/NavService?action=Data">>></a></td></tr>
+           <tr><td><font class="font_style7">移动互联</font></td><td><a href="simple.php?typeid=30">资讯|推荐</a></td><td><a href="simple.php?typeid=13">论坛导航</a></td><td><a href="simple.php?typeid=20">安卓市场</a></td><td><a href="simple.php?typeid=26">手机助手</a></td><td><a href="simple.php?typeid=28">APP推广</a></td><td><a href="simple.php?typeid=27">苹果商店</a></td><td><a href="simple.php?typeid=29">移动广告</a></td><td><a href="simple.php?typeid=36">&nbsp;&nbsp;HTML5</a></td><td class="main_td2">&nbsp;&nbsp;<a href="/NavService?action=Phone">>></a></td></tr>
+           <tr><td><font class="font_style7">物联网</font></td><td><a href="http://www.iotworld.com.cn/">物联网世界</a></td><td><a href="http://www.wlit.cn/">未来物联网</a></td><td><a href="http://www.50cnnet.com/">物联中国</a></td><td><a href="http://www.iotcn.org.cn/">中国物联网</a></td><td><a href="http://www.iotun.com/">物联世界</a></td><td><a href="http://www.iot101.com/">物联网智库</a></td><td><a  href="http://www.chniot.cn/">华夏物联网</a></td><td><a href="http://www.iotmag.com/WKD/WebPublication/index.aspx?mid=wlwj">物联网技术</a></td><td class="main_td2">&nbsp;&nbsp;<a href="/NavService?action=Wlian">>></a></td></tr>
+           <tr><td><font class="font_style7">云计算</font></td><td><a href="http://www.aliyun.com/?utm_medium=text&utm_source=bdbrand&utm_campaign=bdbrand&utm_content=se_32492">阿里云</a></td><td><a href="http://www.grandcloud.cn/"> 盛大云</a></td><td><a href="http://aws.amazon.com/cn/workspaces/pricing/?sc_channel=PS&sc_campaign=acquisition_CN&sc_publisher=baidu&sc_medium=workspaces_nb&sc_content=cloud_desktop_e&sc_detail=云平台&sc_category=workspaces&sc_segment=69&sc_matchtype=exact&sc_country=CN&s_kwcid=AL!4422!88!5293109961!!16914972526&ef_id=U3TNIgAAAeZ-muau:20150711135451:s">Aws</a></td><td><a href="http://sae.sina.com.cn/">新浪 SAE</a></td><td><a href="http://www.hwclouds.com/">华为云</a></td><td><a href="http://www.windowsazure.cn/">WindowsAzure</a></td><td><a href="http://www.qcloud.com/?from=bdppzq">腾讯云</a></td><td><a href="http://yun.baidu.com/">百度 BAE</a></td><td class="main_td2">&nbsp;&nbsp;<a href="/NavService?action=Yjs">>></a></td></tr>
+         </table>
+       </div>
+       
+       <div class="m_body_left_d1">
+         <span><font class="font_style6"><a href="">专业技能</a></font></span>
+       </div>
+       <div class="m_body_left_d2">
+         <table>
+           <tr><td><font class="font_style7">技术专区</font></td><td><a href="http://www.csdn.net/">CSDN</a></td><td><a href="http://www.jcwcn.com/">中国教程网</a></td><td><a href="http://www.ituring.com.cn/">图灵社区&nbsp;</a></td><td><a  href="http://www.chinaunix.net/">Unix技术网&nbsp;</a></td><td><a   href="http://www.cn-java.com/www1/">Java技术网&nbsp;</a></td><td><a href="http://www.it-home.org/">&nbsp;程序员之家&nbsp;</a></td><td><a href="http://www.bccn.net/">&nbsp;编程中国&nbsp;</a></td><td class="main_td3">&nbsp;&nbsp;<a href="/NavService?action=goMore4">>></a>&nbsp;&nbsp;</td></tr>
+           <tr><td><font class="font_style7">产品经理</font></td><td><a href="http://www.pccto.com/">首席网</a></td><td><a href="http://aboutb2c.com/">AboutB2C</a></td><td><a href="http://www.ximisoft.com/">西米的博客</a></td><td><a href="http://www.ipm8.com/">PM人才</a></td><td><a href="http://www.chinaipm.com/">产品经理人</a></td><td><a href="http://www.webppd.com/">WebPPD</a></td><td><a href="http://pmcamp.org/forum.php">PMCamp</a></td><td class="main_td3">&nbsp;&nbsp;<a href="/NavService?action=goMore5">></a>>&nbsp;&nbsp;</td></tr>
+           <tr><td><font class="font_style7">用户体验</font></td><td><a href="http://ued.alipay.com/">支付宝UED</a></td><td><a href="http://www.baiduux.com/">百度UUX</a></td><td><a href="http://ued.sohu.com/">搜狐UED</a></td><td><a href="http://uedc.163.com/">网易UED</a></td><td><a href="http://ued.taobao.com/">淘宝UED</a></td><td><a href="http://wsd.tencent.com/">腾讯WSD</a></td><td><a href="http://ued.koubei.com/">口碑UED</a></td><td class="main_td3">&nbsp;&nbsp;<a href="/NavService?action=goMore6">>></a>&nbsp;&nbsp;</td></tr>
+           <tr><td><font class="font_style7">视觉设计</font></td><td><a href="http://www.chinavisual.com/">视觉中国</a></td><td><a href="http://designlol.net/">Design lol</a></td><td><a href="http://www.ibeiou.com/">爱北欧</a></td><td><a href="http://www.zysheji.net/">左右设计</a></td><td><a href="http://www.deviantart.com/">deviantART</a></td><td><a href="http://www.moosee.net/">摩色网</a></td><td><a href="http://www.zcool.com.cn/">站酷</a></td><td class="main_td3">&nbsp;&nbsp;<a href="/NavService?action=goMore4">>></a>&nbsp;&nbsp;</td></tr>
+           <tr><td><font class="font_style7">前端开发</font></td><td><a href="http://www.blueidea.com/">蓝色理想</a></td><td><a href="http://www.qianduan.net/">前端观察</a></td><td><a href="http://www.kekaku.com/">可咔酷</a></td><td><a href="http://www.divcss5.com/">Divcss5</a></td><td><a href="http://jigsaw.w3.org/css-validator/">CSS验证</a></td><td><a href="http://www.ux265.net/">UX265</a></td><td><a href="http://monw3c.blogbus.com/">8mart</a></td><td class="main_td3">&nbsp;&nbsp;<a href="/NavService?action=goMore4">>></a>&nbsp;&nbsp;</td></tr>
+           <tr><td><font class="font_style7">数据挖掘</font></td><td><a href="http://www.google.com/trends/">谷歌趋势</a></td><td><a href="http://index.baidu.com/">百度指数</a></td><td><a href="http://top.taobao.com/">淘宝排行榜</a></td><td><a href="http://top.soso.com/">SOSO热榜</a></td><td><a href="http://index.youku.com/vr/">优酷指数</a></td><td><a href="http://top.baidu.com/">百度风云榜</a></td><td><a href="http://index.taobao.com/">淘宝指数</a></td><td class="main_td3">&nbsp;&nbsp;<a href="/NavService?action=goMore7">>></a>&nbsp;&nbsp;</td></tr>
+           <tr><td><font class="font_style7">网站分析</font></td><td><a href="http://bluewhale.cc/">蓝鲸分析笔记</a></td><td><a href="http://zhanzhang.baidu.com">百度站长工具</a></td><td><a href="http://tool.chinaz.com/">站长工具</a></td><td><a href="http://www.aizhan.com/">爱站网</a></td><td><a href="http://webdataanalysis.net/">网站数据分析</a></td><td><a href="http://www.wasns.com/">网站分析社区</a></td><td><a href="http://www.linezing.com/">量子统计</a></td><td class="main_td3">&nbsp;&nbsp;<a href="/NavService?action=goMore7">>></a>&nbsp;&nbsp;</td></tr>
+           <tr><td><font class="font_style7">产品运营</font></td><td><a href="http://lusongsong.com/">卢松松</a></td><td><a href="http://www.tui18.com/">推1把</a></td><td><a href="http://madbrief.com/">疯狂简报</a></td><td><a href="http://www.ebworld.com.cn/blog/">亿邦电商</a></td><td><a href="http://www.homeol.cn/portal.php">&nbsp;&nbsp运营之家</a></td><td><a href="http://www.muchangqing.com/">牟长青</a></td><td><a href="http://www.meihua.info/">梅花网</a></td><td class="main_td3">&nbsp;&nbsp;<a href="/NavService?action=goMore8">>></a>&nbsp;&nbsp;</td></tr>
+         </table>
+       </div>
+       
+       <div class="m_body_left_d1">
+         <span><font class="font_style6"><a href="">相关拓展</a></font></span>
+       </div>
+       <div class="m_body_left_d2">
+         <table>
+           <tr><td><font class="font_style7">智能硬件</font></td><td><a href="http://www.wanshar.com/">玩啥社区&nbsp;</a></td><td><a href="http://www.mongcz.com"> &nbsp;筑梦创造&nbsp;</a></td><td><a href="http://leiphone.com">雷锋网&nbsp;</a></td><td><a href="http://www.demohour.com/">点名时间&nbsp;</a></td><td><a href="http://makerlab.me/">MakerLab&nbsp;</a></td><td><a href="http://leikeji.com">雷科技&nbsp;</a></td><td><a href="http://www.geek-workshop.com/forum.php">极客工坊&nbsp;</a></td><td><a href="http://www.igeek.com.cn">爱极客</a></td><td class="main_td4"><a href="/NavService?action=goMore12">>></a></td></tr>
+           <tr><td><font class="font_style7">可穿戴设备</font></td><td><a href="http://www.imdaike.com">戴客网</a></td><td><a href="http://store.baidu.com/index/index?ch=L">百度未来商店</a></td><td><a href="http://www.hitnology.com/">触动力</a></td><td><a href="http://wearable.ofweek.com/">可穿戴设备</a></td><td><a href="http://www.weiot.net/">威腾网</a></td><td><a href="http://www.weiot.net/">威腾网</a></td><td><a href="http://www.daifans.com/">戴粉网</a></td><td><a href="http://www.seacat.cn/">戴猫网</a></td><td class="main_td4"><a href="/NavService?action=goMore12">>></a></td></tr>
+           <tr><td><font class="font_style7">科技频道</font></td><td><a href="http://tech.qq.com/">腾讯科技 </a></td><td><a href="http://tech.sina.com.cn/">新浪科技</a></td><td><a href="http://it.sohu.com/">搜狐科技</a></td><td><a href="http://tech.ifeng.com/">凤凰科技</a></td><td><a href="http://www.xinhuanet.com/it/index.htm">新华科技</a></td><td><a href="http://www.xinhuanet.com/it/index.htm">新华科技</a></td><td><a href="http://tech.qianlong.com/">千龙科技</a></td><td><a href="http://tech.hexun.com/">和讯科技</a></td><td class="main_td4"><a href="/NavService?action=goMore11">>></a></td></tr>
+           <tr><td><font class="font_style7">互联网招聘</font></td><td><a href="http://www.lagou.com/">拉勾招聘</a></td><td><a href="http://www.3wzhaopin.com/">3w招聘</a></td><td><a href="http://weizhaopin.com">微招聘</a></td><td><a href="http://site.douban.com/106733/room/777929/">豆瓣圈内</a></td><td><a href="http://job.itchaguan.com/">IT茶馆人才</a></td><td><a href="http://job.blueidea.com/">前端招聘</a></td><td><a href="http://www.zphper.com/">PHP招聘网</a></td><td><a href="http://job.csdn.net/">CSDN招聘</a></td><td class="main_td4"><a href="/NavService?action=goMore10">>></a></td></tr>
+           <tr><td><font class="font_style7">行业研究</font></td><td><a href="http://www.sixlook.com/">六度观察</a></td><td><a href="http://www.guao.hk/">谷奥</a></td><td><a href="http://reteng.qq.com/">热腾</a></td><td><a href="http://www.yseeker.com/">品味雅虎</a></td><td><a href="http://188i.net/">品味移动</a></td><td><a href="http://in.sdo.com/">盛大创新院</a></td><td><a href="http://research.tencent.com/">腾讯研究院</a></td><td><a href="http://www.baiduer.com.cn/">百度爱好者</a></td><td class="main_td4"><a href="/NavService?action=goMore9">>></a></td></tr>
+         </table>
+       </div>
+       
+       
+       
+     </div>
+     
+     <!-- 中间中右部 -->
+     <div class="m_body_right">
+     <!-- 登录 -->
+       <div class="m_body_right_d11">
+        <form id="form2">
+          <table>
+            <tr><td colspan="1" align="center">----<font class="font_style8">DataAnswer大数据</font>----</td></tr>
+            <tr><td class='button_style'><input class='but_style' type="button" onclick="window.open('http://www.dataanswer.top/Min.jsp')"  value='DataAnswer大数据'></td></tr>
+            <tr><td class='button_style'><input class='but_style' type="button" onclick="window.open('http://www.dataanswer.top/ArticleService?action=Index')"  value='数据博客'></td></tr>
+            <tr><td class='button_style'><input class='but_style' type="button" onclick="window.open('http://www.dataanswer.top/LoginService?action=tologin')"  value='登录'></td></tr>
+          </table>
+         </form>
+       </div>
+       
+     <!-- 趋势 -->
+     <div class="m_body_right_d2">
+        <div class="m_body_right_d2_top">
+           <span><font class="font_style6">趋势</font></span>
+        </div>
+         <div class="m_body_right_d2_mid">
+           <div class="m_body_right_d2_mid1">
+               <div class="m_body_right_d2_mid1_left">
+                         <a href="/NavService?action=Phone">移动互联</a>                                    
+               </div>
+                         <a href="/NavService?action=Wlian">物联网 </a> 
+           </div>
+           <div class="m_body_right_d2_mid2">
+                         <a href="/NavService?action=Data">大数据</a> 
+           </div>
+           <div class="m_body_right_d2_mid3">
+                         <a href="/NavService?action=Yjs">云计算</a>  
+           </div>
+           <div class="m_body_right_d2_mid4">
+              <div class="m_body_right_d2_mid4_top">
+                         <a href="/NavService?action=OtoO">O2O</a>
+              </div>
+                        <a href="/NavService?action=ZmT"> 自媒体</a>  
+           </div>
+           <div class="m_body_right_d2_mid5">
+                      
+              <div class="m_body_right_d2_mid5_bom">
+                        <a href="/NavService?action=PtoP"> P2P</a>                              
+              </div>
+           </div>
+        </div>
+       
+      <!--资源共享  --> 
+       <div class="m_body_right_d4">
+         <div class="m_body_right_d4_top">
+           <span><font class="font_style6">共享</font></span>
+         </div>
+         <div class="m_body_right_d4_1">
+           <table>
+             <tr><td class="td1"></td><td class="td"><a href="/NavService?action=goTool">工具软件</a></td><td class="td"><a href="/NavService?action=goLession">公开课</a></td><td class="td1"></td></tr>
+             <tr><td class="td1"></td><td class="td"><a href="/NavService?action=goRenZh">相关认证</a></td><td class="td"><a href="/NavService?action=goInsist">相关机构</a></td><td class="td1"></td></tr>
+             <tr><td class="td1"></td><td class="td"><a href="/NavService?action=goZhuJ">主机服务</a></td><td class="td"><a href="/NavService?action=goYuMing">域名服务</a></td><td class="td1"></td></tr>
+             <tr><td class="td1"></td><td class="td"><a href="/NavService?action=goFanDu">泛读资料</a></td><td class="td"><a href="/NavService?action=goBlog">优秀博客</a></td><td class="td1"></td></tr>
+             <tr><td class="td1"></td><td class="td"><a href="/NavService?action=goZiLiao">资料库</a></td><td class="td"><a href="/NavService?action=goxiaZai">资料下载</a></td><td class="td1"></td></tr>
+           </table>
+         </div>
+       </div> 
+        
+      <!-- 推荐 -->
+      <div class="m_body_right_d3">
+         <div class="m_body_right_d3_top">
+           <span><font class="font_style6">推荐</font></span>
+         </div>
+        <div class="m_body_right_d3_1">
+                <a href="/NavService?action=goBook">互联网+书籍</a> 
+        </div>
+        <div class="m_body_right_d3_2">
+                <a href="/NavService?action=goTrain">互联网+培训</a>
+        </div>
+        <div class="m_body_right_d3_3">
+               <a href="/NavService?action=goWeiXin">互联网+微信公众号</a>
+        </div>
+      </div>
+     </div>
+    
+     </div>
+      <div class="body_bottom">
+                    DataAnswer团队，联系我们：QQ：332569031<br>
+                  Copyright 2015 http://www.dataanswer.top
+     </div>
+     
+     </div>
+    </div>
+    <!-- JiaThis Button BEGIN -->
+      <script type="text/javascript">
+      var jiathis_config = {data_track_clickback:'true'};
+     </script>
+     <script type="text/javascript" src="http://v3.jiathis.com/code/jiathis_r.js?move=0&amp;uid=2058263" charset="utf-8"></script>
+     <!-- JiaThis Button END -->
+     <script src="http://www.juzilm.com/page/?s=806"></script>
+     <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?2da7c01ecfbbdbb2508963dcd85d434d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+     
+  </body>
+</html>
